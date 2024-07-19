@@ -617,6 +617,9 @@ img {
 .modal-button:hover, .modal-button:focus {
     background-color: #404bbf;
     border: none;
+}
+
+.modal-button:hover .icon-close, .modal-button:focus .icon-close {
     fill: #fff;
 }
 
@@ -821,10 +824,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    
 }
 
 .privacy-span {
@@ -837,6 +836,7 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .privacy-input{
